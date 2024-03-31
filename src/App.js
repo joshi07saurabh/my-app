@@ -9,14 +9,14 @@ const App = () => {
   return (
     <Router>
       <div>
-        <nav style={{ backgroundColor: 'black', padding: '10px 0', marginBottom: '20px' }}>
+         <nav style={{ backgroundColor: 'black', padding: '10px 0', marginBottom: '20px' }}> 
           <ul style={{ display: 'flex', listStyleType: 'none', justifyContent: 'left' }}>
             <li style={{ marginRight: '10px' }}>
               <Link to="/" style={{ color: 'white', textDecoration: 'none' }}>Home</Link>
             </li>
-            <li style={{ marginRight: '10px' }}>
+            {/* <li style={{ marginRight: '10px' }}>
               <Link to="/about" style={{ color: 'white', textDecoration: 'none' }}>About</Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/contact" style={{ color: 'white', textDecoration: 'none' }}>Contact</Link>
             </li>
